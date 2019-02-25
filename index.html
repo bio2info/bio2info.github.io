@@ -1,38 +1,737 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Bio2Info</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>bio2info</title>
+    <style type="text/css">
+    .ReadMsgBody {
+      width: 100%;
+      background-color: #ffffff;
+    }
+    .ExternalClass {
+      width: 100%;
+      background-color: #ffffff;
+    }
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+    html {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+    table {
+      border-spacing: 0;
+      border-collapse: collapse;
+    }
+    img {
+      display: block !important;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      border: none;
+      height: auto;
+      line-height: 100%;
+      vertical-align: bottom;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+    }
+    br {
+      line-height: 0 !important;
+    }
+    div,
+    p,
+    span,
+    strong,
+    b,
+    em,
+    i,
+    a,
+    li,
+    td {
+      -webkit-text-size-adjust: none;
+    }
+    .b-letter__body {
+      background: #cccccc !important;
+    }
+    table td,
+    table tr {
+      border-collapse: collapse;
+    }
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .js-phone-number,
+    .highlight-phone {
+      color: #ffffff !important;
+      text-decoration: none !important;
+    }
+    a,
+    p {
+      line-height: inherit !important;
+      text-decoration: none !important;
+    }
+    @media only screen and (max-width: 600px) {
+      body {
+        width: auto !important;
+      }
+      table[class="container"] {
+        width: 100% !important;
+      }
+      table[class="center"] {
+        text-align: center !important;
+        float: none !important;
+      }
+      td[class="content"] {
+        padding: 0 10px !important;
+      }
+      td[class="center-content"] {
+        padding: 0 10px !important;
+        text-align: center !important;
+        float: none !important;
+      }
+      td[class="padding-reset"] {
+        padding: 0 !important;
+      }
+      table[class="inline-block"] {
+        text-align: center !important;
+        float: none !important;
+        width: 100% !important;
+      }
+      table[class="inline-block-1"] {
+        text-align: center !important;
+        float: none !important;
+        width: 280px !important;
+      }
+      table[class="inline-block-2"] {
+        text-align: center !important;
+        float: none !important;
+        width: 271px !important;
+      }
+      td[class="inline-container"] {
+        padding: 0 !important;
+      }
+      img[class="stretch"] {
+        width: 100% !important;
+      }
+      table[class="remove"],
+      tr[class="remove"],
+      td[class="remove"],
+      span[class="remove"] {
+        display: none;
+      }
+    }
+    </style>
   </head>
-  <body>
-    
-<b>Biology-To-Informatics (Bio2Info)</b> 
-</br>
-</br>
-<b>网站正在建设中，敬请期待。</b>
-</br>
-</br>
-服务简介：
-</br>
-</br>
-我们是由国内顶尖985高校的生物统计、生物信息研究生（硕、博）组成的团队。
-</br>
-</br>
-本团队专注于联结生物（医学）实验人员和数据分析人员。
-</br>
-</br>
-针对您在科研项目中扮演的不同角色，我们提供以下服务：
-</br>
-</br>
-&nbsp;&nbsp;&nbsp;&nbsp; * 针对生物实验人员，我们提供匹配您需求的数据分析人员，提供生物信息咨询，提供需求的可行性分析。
-</br>
-</br>
-&nbsp;&nbsp;&nbsp;&nbsp; * 针对数据分析人员，我们提供匹配您技能的数据分析任务，提供中介协商服务，提供数据分析相关培训。
-</br>
-</br>
-联系方式：bio2info@163.com
-</br>  
-</br> 
-Bio2Info运营团队
+  <body style="width: 100% !important; background-color: #0b0905; background-image: url(images/bg-pattern.jpg); background-repeat: repeat-y no-repeat;" class="body-layout">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="width: 100% !important; background-color: #0b0905; background-image: url(images/bg-pattern.jpg); background-repeat: repeat;" class="body-layout">
+      <tr>
+        <td align="center" valign="top" background="images/bg-pattern.jpg">
+          <!--[if mso]></td></tr></table><![endif]-->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top" style="background: url(images/glow.png) 50% 0 no-repeat;">
+                <table width="602" align="center" class="container" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top" background="images/bgimg01.jpg" style="background-color:#010101;background-image:url(images/bgimg01.jpg);background-repeat:no-repeat;background-position:50% 0">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center" valign="top">
+                            <table align="center" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td height="333" style="height: 400px; line-height:333px;"></td>
+                              </tr>
+                              <tr>
+                                <td colspan="2" align="center" valign="top" style="font-family: Trebuchet MS, sans-serif; font-size: 100px; mso-line-height-rule: exactly; line-height: 93px; font-weight: 400;color: #ffffff;"><span mc:edit="edit1">       <a style="text-decoration: none; color: #ffffff;" href="index.html">Bio2Info</a></span>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" valign="top" style="width: 73px;background: #6e0502;"></td>
+                                <td align="right" valign="top" style="font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 12px; font-weight: 400; text-transform: uppercase;color: #ffffff;"><span mc:edit="edit2">Biology-to-Informatics</span>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="36" style="height: 36px; line-height:36px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="padding: 0 42px;" class="padding-reset">
+                            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" valign="top" style="line-height: 0 !important;" class="remove"> <a href="index.html">
+                                  <img mc:edit="edit3" src="images/img01-1.png" alt="img1" width="162" height="88" /></a>
+                                </td>
+                                <td align="center" valign="top" style="padding: 0 15px; line-height: 0 !important;" class="padding-reset"><a href="index.html">
+                                  <img mc:edit="edit4" src="images/img02-1.png" alt="img2" width="162" height="88" /></a>
+                                </td>
+                                <td align="center" valign="top" style="line-height: 0 !important;" class="remove"><a href="index.html">
+                                  <img mc:edit="edit5" src="images/img03-1.png" alt="img3" width="162" height="88" /></a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" style="background: #ffffff;">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center" valign="top" style="padding: 0 42px;" class="padding-reset">
+                            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" valign="top" class="remove"><a href="index.html">
+                                  <img mc:edit="edit6" src="images/img01-2.png" alt="img1" width="162" height="74" /></a>
+                                </td>
+                                <td align="center" valign="top" style="padding: 0 15px;" class="padding-reset"><a href="index.html">
+                                  <img mc:edit="edit7" src="images/img02-2.png" alt="img2" width="162" height="74" /></a>
+                                </td>
+                                <td align="center" valign="top" class="remove"><a href="index.html">
+                                  <img mc:edit="edit8" src="images/img03-2.png" alt="img3" width="162" height="74" /></a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="32" style="height: 32px; line-height:32px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="font-family: Trebuchet MS, sans-serif; font-size: 30px; mso-line-height-rule: exactly; line-height: 34px; font-weight: 400; text-transform: uppercase;color: #414141;" class="content"><span mc:edit="edit9">关于我们</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="20" style="height: 20px; line-height:20px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table width="306" align="center" class="container" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" valign="top" height="1" style="height: 1px; line-height: 1px; background: #b8b8b8;"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="26" style="height: 26px; line-height:26px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #3b3b3b;" class="content"><span mc:edit="edit10">定制分析方案，展现分析才能 </span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="padding: 0 60px;font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #9d9d9d;" class="content"><span mc:edit="edit11">国内顶尖高校生物信息团队，文章累计影响因子80+，专注于联结生物实验和数据分析。帮助实验人员寻找与自身需求匹配的分析人员，帮助分析人员寻找与自身技能匹配的数据分析任务。</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="33" style="height: 33px; line-height:33px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="line-height: 0 !important;" class="content">
+                            
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="45" style="height: 45px; line-height:45px;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top">
+                <table width="602" align="center" class="container" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top" style="background: #ffffff;">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center" valign="top" height="1" style="height: 1px; line-height: 1px; background: #e7e7e7;"></td>
+                        </tr>
+                        <tr>
+                          <td height="38" style="height: 38px; line-height:38px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="font-family: Trebuchet MS, sans-serif; font-size: 24px; mso-line-height-rule: exactly; line-height: 28px; font-weight: 400; text-transform: uppercase;color: #414141;" class="content"><span mc:edit="edit13">选择我们的原因 </span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="19" style="height: 19px; line-height:19px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="padding: 0 22px;" class="padding-reset">
+                            <!--[if mso]><table border="0" cellspacing="0" cellpadding="0" align="center"><tr><![endif]-->
+                            <!--[if mso]><td align="center" valign="top"><![endif]-->
+                            <table width="271" align="left" class="inline-block-2" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" valign="top" class="inline-container">
+                                  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td height="17" style="height: 17px; line-height:17px;"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top" style="line-height: 0 !important;">
+                                        <img mc:edit="edit14" src="images/img04.jpg" alt="img4" width="271" height="189" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <table width="100%" align="center" style="border-left: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; border-right: 1px solid #dbdbdb;" border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td height="39" style="height: 39px; line-height:39px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left" valign="top" style="padding: 0 34px;font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 700; text-transform: uppercase;color: #363131;"><span mc:edit="edit15">预先咨询 </span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="14" style="height: 14px; line-height:14px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left" valign="top" style="padding: 0 15px 0 34px;font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #a1a1a1;"><span mc:edit="edit16">在分析任务开始之前，我们可以针对分析任务的难度、时间、预期结果等进行评估，帮助您更加准确、全面地认识待分析问题。 </span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="30" style="height: 30px; line-height:30px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="right" valign="top" style="padding: 0 27px;font-family: Trebuchet MS, sans-serif; font-size: 18px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #060502;"><span mc:edit="edit17">       <a style="text-decoration: none; color: #060502;" href="index.html"> </a></span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="25" style="height: 25px; line-height:25px;"></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--[if mso]></td><![endif]-->
+                            <!--[if mso]><td align="center" valign="top"><![endif]-->
+                            <table width="285" align="left" class="inline-block-2" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" valign="top" style="padding: 0 0 0 14px;" class="inline-container">
+                                  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td height="17" style="height: 17px; line-height:17px;"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top" style="line-height: 0 !important;">
+                                        <img mc:edit="edit18" src="images/img05.jpg" alt="img5" width="271" height="189" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <table width="100%" align="center" style="border-left: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; border-right: 1px solid #dbdbdb;" border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td height="39" style="height: 39px; line-height:39px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left" valign="top" style="padding: 0 34px;font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 700; text-transform: uppercase;color: #363131;"><span mc:edit="edit19">任务护航 </span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="14" style="height: 14px; line-height:14px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left" valign="top" style="padding: 0 15px 0 34px;font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #a1a1a1;"><span mc:edit="edit20">我们提供“护航”服务，对分析的质量进行把关，帮助实验人员解决“无法有效沟通”的问题；协助分析人员解决分析过程中遇到的困难。 </span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="30" style="height: 30px; line-height:30px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="right" valign="top" style="padding: 0 27px;font-family: Trebuchet MS, sans-serif; font-size: 18px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #060502;"><span mc:edit="edit21">       <a style="text-decoration: none; color: #060502;" href="index.html"></a></span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="25" style="height: 25px; line-height:25px;"></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--[if mso]></td><![endif]-->
+                            <!--[if mso]></tr></table><![endif]-->
+                          </td>
+                        </tr>
+                        <tr mc:repeatable="mc:repeatable" mc:hideable="mc:hideable">
+                          <td align="center" valign="top" style="padding: 0 22px;" class="padding-reset">
+                            <!--[if mso]><table border="0" cellspacing="0" cellpadding="0" align="center"><tr><![endif]-->
+                            <!--[if mso]><td align="center" valign="top"><![endif]-->
+                            <table width="271" align="left" class="inline-block-2" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" valign="top" class="inline-container">
+                                  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td height="17" style="height: 17px; line-height:17px;"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top" style="line-height: 0 !important;">
+                                        <img mc:edit="edit22" src="images/img06.jpg" alt="img6" width="271" height="189" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <table width="100%" align="center" style="border-left: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; border-right: 1px solid #dbdbdb;" border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td height="39" style="height: 39px; line-height:39px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left" valign="top" style="padding: 0 34px;font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 700; text-transform: uppercase;color: #363131;"><span mc:edit="edit23">利益明确 </span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="14" style="height: 14px; line-height:14px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left" valign="top" style="padding: 0 15px 0 34px;font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #a1a1a1;"><span mc:edit="edit24">在分析任务开始之前就针对：是否产生分析报酬、是否需要作者挂名等问题进行明确。扫清开展合作的顾虑，留存相应文档以备查证。 </span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="30" style="height: 30px; line-height:30px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="right" valign="top" style="padding: 0 27px;font-family: Trebuchet MS, sans-serif; font-size: 18px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #060502;"><span mc:edit="edit25">       <a style="text-decoration: none; color: #060502;" href="index.html"> </a></span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="25" style="height: 25px; line-height:25px;"></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--[if mso]></td><![endif]-->
+                            <!--[if mso]><td align="center" valign="top"><![endif]-->
+                            <table width="285" align="left" class="inline-block-2" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" valign="top" style="padding: 0 0 0 14px;" class="inline-container">
+                                  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                      <td height="17" style="height: 17px; line-height:17px;"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top" style="line-height: 0 !important;">
+                                        <img mc:edit="edit26" src="images/img07.jpg" alt="img7" width="271" height="189" />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <table width="100%" align="center" style="border-left: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; border-right: 1px solid #dbdbdb;" border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td height="39" style="height: 39px; line-height:39px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left" valign="top" style="padding: 0 34px;font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 700; text-transform: uppercase;color: #363131;"><span mc:edit="edit27">合作发展 </span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="14" style="height: 14px; line-height:14px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left" valign="top" style="padding: 0 15px 0 34px;font-family: Trebuchet MS, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #a1a1a1;"><span mc:edit="edit28">鼓励不匿名用户，我们将极力撮合实验、分析双方均不匿名的组合进行更长远的合作，助力未来更多可能的科研项目。 </span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="30" style="height: 30px; line-height:30px;"></td>
+                                          </tr>
+                                          <tr>
+                                            <td align="right" valign="top" style="padding: 0 27px;font-family: Trebuchet MS, sans-serif; font-size: 18px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #060502;"><span mc:edit="edit29">       <a style="text-decoration: none; color: #060502;" href="index.html"> </a></span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="25" style="height: 25px; line-height:25px;"></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--[if mso]></td><![endif]-->
+                            <!--[if mso]></tr></table><![endif]-->
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="23" style="height: 23px; line-height:23px;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top">
+                <table width="600" align="center" class="container" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr mc:repeatable="mc:repeatable" mc:hideable="mc:hideable">
+                          <td align="center" valign="top" style="line-height: 0 !important;">
+                            <a style="text-decoration: none; display: inline-block;">
+                              
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top">
+                <table width="600" align="center" class="container" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top" background="images/bgimg02.jpg" style="background-color:#0e0c0a;background-image:url(images/bgimg02.jpg);background-repeat:no-repeat;background-position:50% 0">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="46" style="height: 46px; line-height:46px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="font-family: Trebuchet MS, sans-serif; font-size: 24px; mso-line-height-rule: exactly; line-height: 28px; font-weight: 400; text-transform: uppercase;color: #ffffff;" class="content"><span mc:edit="edit31">样例展示 </span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="27" style="height: 27px; line-height:27px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table width="306" align="center" class="container" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" valign="top" height="1" style="height: 1px; line-height: 1px; background: #b8b8b8;"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="8" style="height: 8px; line-height:8px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" class="content">
+                            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td height="10" style="height: 10px; line-height:10px;"></td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top" style="line-height: 0 !important;">
+                                  <a style="text-decoration: none; display: inline-block;" >
+                                    <img mc:edit="edit32" src="images/img09.jpg" alt="img9" width="575" height="100" class="stretch" />
+                                  </a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" class="content">
+                            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td height="10" style="height: 10px; line-height:10px;"></td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top" style="line-height: 0 !important;">
+                                  <a style="text-decoration: none; display: inline-block;" >
+                                    <img mc:edit="edit33" src="images/img10.jpg" alt="img10" width="575" height="100" class="stretch" />
+                                  </a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" class="content">
+                            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td height="10" style="height: 10px; line-height:10px;"></td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top" style="line-height: 0 !important;">
+                                  <a style="text-decoration: none; display: inline-block;" >
+                                    <img mc:edit="edit34" src="images/img11.jpg" alt="img11" width="575" height="100" class="stretch" />
+                                  </a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="32" style="height: 32px; line-height:32px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="line-height: 0 !important;">
+                            <a style="text-decoration: none; display: inline-block;" >
+                              
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" style="background: #ffffff;">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center" valign="top" style="line-height: 0 !important;">
+                            <a style="text-decoration: none; display: inline-block;" >
+                             
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
 
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top" style="background: url(images/glow.png) 50% -60px no-repeat;">
+                <table width="600" align="center" class="container" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top" style="background: #ffffff;">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="69" style="height: 69px; line-height:69px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="font-family: Trebuchet MS, sans-serif; font-size: 24px; mso-line-height-rule: exactly; line-height: 28px; font-weight: 400; text-transform: uppercase;color: #414141;" class="content"><span mc:edit="edit52">联系我们 </span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="24" style="height: 24px; line-height:24px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table width="306" align="center" class="container" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td align="center" valign="top" height="1" style="height: 1px; line-height: 1px; background: #b8b8b8;"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="30" style="height: 30px; line-height:30px;"></td>
+                        </tr>
+                        <tr>
+                          
+                        </tr>
+                        <tr>
+                          <td height="27" style="height: 27px; line-height:27px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table align="center" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td height="5" style="height: 5px; line-height:5px;"></td>
+                                <td rowspan="2" align="left" valign="top" style="font-family: Trebuchet MS, sans-serif; font-size: 18px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #bf4542;"><span mc:edit="edit56">       <a style="text-decoration: none; color: #bf4542;">bio2info@163.com </a></span>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" valign="top" style="padding: 0 8px 0 0;">
+                                  <img src="images/icon-mail.png" alt="mail" width="19" height="13" />
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="41" style="height: 41px; line-height:41px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="padding: 0 23px;">
+                            
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="29" style="height: 29px; line-height:29px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table align="center" border="0" cellspacing="0" cellpadding="0">
+                              
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="29" style="height: 29px; line-height:29px;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" style="background: #030403;">
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="15" style="height: 15px; line-height:15px;"></td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top" style="font-family: Trebuchet MS, sans-serif; font-size: 13px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400; text-transform: uppercase;color: #ffffff;" class="content"><span mc:edit="edit65">bio2info </span> © <span mc:edit="edit66">2019 </span> 
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="23" style="height: 23px; line-height:23px;"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr class="remove">
+                    <td height="36" style="height: 36px; line-height:36px;"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]><table><tr><td><![endif]-->
+        </td>
+      </tr>
+    </table>
   </body>
-
 </html>
